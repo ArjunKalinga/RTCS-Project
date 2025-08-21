@@ -1,0 +1,32 @@
+# Python virtual environment
+rtcs/
+venv/
+*.pyc
+__pycache__/
+.Python/
+build/
+dist/
+*.egg-info/
+.env
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large data files (DO NOT COMMIT DATASETS OR LARGE MODELS)
+data/
+models/*.h5 # Ignore all .h5 files in models folder (your trained models)
+models/*.keras # New Keras format
+models/*.pt # PyTorch models
+models/*.pth # PyTorch models
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
