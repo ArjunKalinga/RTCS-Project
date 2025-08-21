@@ -30,3 +30,7 @@ models/*.pth # PyTorch models
 *.log
 *.tmp
 *.temp
+rtcs/Lib/
+*.dll
+*.pyd
+__pycache__/
